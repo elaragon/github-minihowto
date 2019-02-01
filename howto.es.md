@@ -49,6 +49,8 @@ $ git status                # comprobar estado de cambios y rama actual
 ```shell
 $ git pull origin RAMA      # actualizar el repositorio local con RAMA remoto
 $ git checkout -b RAMA      # crear y entrar en la rama
+$ git add *                 # añadir docs modificados a Staging
+$ git commit -m "update"    # guardar cambios de los docs modificados
 $ git push origin RAMA      # subir los cambios al repositorio externo
                             # esto permite hacer un PR en GitHub
 $ git checkout master       # cambiar a master
